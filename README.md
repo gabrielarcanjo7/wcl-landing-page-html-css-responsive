@@ -1,16 +1,16 @@
 # Wide Coverage Location
 
-Este projeto é um exercício de front-end focado em CSS, com objetivo de praticar layout, responsividade e estilização de componentes utilizando apenas propriedades tradicionais de CSS (sem Flexbox ou Grid).
+This project is a front-end exercise focused on CSS, aiming to practice layout, responsiveness, and component styling using only traditional CSS properties (without Flexbox or Grid).
 
-## Funcionalidades
+## Features
 
-- Layout responsivo para telas pequenas (mobile)
-- Uso de fontes modernas via Google Fonts
-- Estilização de header, botões, links e seções
-- Imagem ajustada para diferentes tamanhos de tela
-- Organização do CSS em arquivos separados para estilos gerais e responsivos
+- Responsive layout designed exclusively for mobile phones (not adapted for tablets)
+- Modern fonts via Google Fonts
+- Styling for header, buttons, links, and sections
+- Image adjusted for different screen sizes
+- CSS organized in separate files for general and responsive styles
 
-## Estrutura de arquivos
+## File Structure
 
 ```
 /
@@ -20,16 +20,18 @@ Este projeto é um exercício de front-end focado em CSS, com objetivo de pratic
 └── README.md
 ```
 
-## Como visualizar
+## How to View
 
-1. Abra o arquivo `index.html` em seu navegador.
-2. Redimensione a janela para ver o comportamento responsivo.
-3. Os estilos principais estão em `styles.css` e os ajustes para mobile em `responsive.css`.
+1. Open the `index.html` file in your browser.
+2. Resize the window to see the responsive behavior.
+3. **Responsiveness was developed only for mobile devices** (maximum width of 425px).  
+   The layout was not adapted for tablets or larger screens, so it may display distortions outside this range.
+4. Main styles are in `styles.css` and mobile adjustments are in `responsive.css`.
 
-## Observações
+## Notes
 
-- O layout foi feito sem Flexbox ou Grid, utilizando apenas `position`, `margin`, `width`, etc.
-- Bordas coloridas podem estar presentes para debug; remova-as na versão final.
-- O projeto pode ser usado como base para estudos ou portfólio.
+- The layout was created without Flexbox or Grid, using only `position`, `margin`, `width`, `inline-block`, etc.
+- Colored borders may be present for debugging; remove them in the final version.
+- This project can be used as a base for study or portfolio.
 
 ---
