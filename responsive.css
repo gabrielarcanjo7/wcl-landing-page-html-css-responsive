@@ -1,0 +1,65 @@
+@media screen and (max-width: 425px) {
+  header {
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+    position: relative;
+    min-height: 51px; /* ou a altura do botão */
+  }
+
+  header a {
+    display: none;
+  }
+
+  button#btn-header {
+    height: 31px;
+    width: 91px;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+  }
+
+  main {
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid red
+  }
+
+  button#btn-section {
+    margin-top: 26px;
+  }
+
+  h1, p, button#btn-section {
+    position: static;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0px 0px 50px 0px;
+  }
+
+  section#section-right {
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 60px;
+    border: 1px solid red;
+  }
+
+  section#section-left {
+    position: absolute;
+    display: block;
+    top: 400px;
+    width: 100%;
+  }
+
+  img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    border: 1px solid red;
+  }
+}
